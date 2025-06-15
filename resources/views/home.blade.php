@@ -1,10 +1,10 @@
 @extends('template')
-@section('titulo', 'Sobre')
+@section('titulo', 'Home')
 @section('conteudo')
 
 <main class="flex flex-col md:flex-row items-center rounded-md justify-between lg:px-16 px-4 py-12 bg-gray-950 text-gray-300 min-h-[70vh]">
 
-  <!-- Texto -->
+  
   <section class="md:w-1/2 max-w-lg">
     <h1 class="text-4xl sm:text-5xl lg:text-6xl font-semibold text-violet-50 leading-tight mb-6">
       COMPRE JOGOS
@@ -30,7 +30,7 @@
 
   </section>
 
-  <!-- Imagem -->
+  
   <section class="md:w-1/2 mt-10 md:mt-0 flex justify-center">
     <img
       src="/assets/catalogo.jpg"
@@ -45,7 +45,7 @@
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     const el = document.getElementById('typed');
-    el.innerHTML = ''; // Limpa o fallback inicial antes de iniciar o Typed.js
+    el.innerHTML = ''; 
 
     new Typed(el, {
       strings: ['RÁPIDO', 'SEGURO', 'COM DESCONTO', 'ONLINE', 'FÁCIL'],
