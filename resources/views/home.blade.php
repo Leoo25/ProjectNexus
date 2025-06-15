@@ -22,7 +22,7 @@
     </p>
 
     <a
-  href="/frmlogin"
+  href="/sobre"
   class="bg-violet-600 hover:bg-violet-700 transition-colors duration-200 text-white font-medium py-3 px-6 rounded-md cursor-pointer focus:outline-none focus:ring-2 focus:ring-violet-700 inline-block text-center"
 >
   SAIBA MAIS!
