@@ -145,13 +145,15 @@ if(!empty($request->senha)){
 $usuario->update($dados);
 return redirect("usuarios");
 }
-
-public function excluirusuario ($id) {
-
+public function excluir($id)
+{
     $usuario = Usuario::findOrFail($id);
     $usuario->delete();
-    return redirect("usuarios");
+
+    return redirect('/usuarios')->with('success', 'Usuário excluído com sucesso.');
 }
+
+
 
 
 public function frmlogin(){

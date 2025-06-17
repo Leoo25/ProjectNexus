@@ -22,7 +22,7 @@
         <td class="px-6 py-4 text-center whitespace-nowrap">
           <form action="/excluirusuario/{{ $u->id }}" method="POST" onsubmit="return confirm('Confirma exclusão do usuário?')">
             @csrf
-            @method('delete')
+            @method('DELETE')
             <button type="submit"
               class="bg-red-700 hover:bg-red-800 text-white text-xs px-3 py-1 rounded transition">
               Excluir
